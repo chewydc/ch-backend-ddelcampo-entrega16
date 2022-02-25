@@ -1,0 +1,14 @@
+//-------------------------------------------------------------------
+// Entregable 16: Capas
+// Fecha de entrega: 04-02-22
+// Alumno: Damian del Campo
+//-------------------------------------------------------------------
+import ContenedorFirebase from '../../contenedores/ContenedorFirebase.js'
+
+class MensajesDaoFirebase extends ContenedorFirebase {
+    constructor(){
+        super('mensajes')
+    }
+}
+
+export default MensajesDaoFirebase
